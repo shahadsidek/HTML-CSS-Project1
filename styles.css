@@ -1,0 +1,111 @@
+body{
+    background-color: #FFF;
+    margin: 0 auto;
+}
+header{
+    /*in the header part we dont set margins, no heights
+    we just set the position , background color */
+    background-color: rgb(79, 111, 209);
+    width: 100%;
+    border-bottom: 10px solid #466995;
+    position: fixed; /*becoz it is fixed it will */
+    z-index: 10;
+}
+ul{
+    /*in the UL we set the margin and padding*/
+    margin: 30px auto; /*instead of setting the height we set the offset from the top and with 0 it will be vertically centered*/
+    padding: 0px 20px;
+    text-align: center; /*centering it horizontally otherwise it will go left*/
+    /* border: 1px solid black; | Just to see the padding effect */
+}
+li{
+    /*the li's is for the font stuff and the display*/
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 90px;  
+}
+
+li:hover{
+    color: #DBE9EE;
+
+}
+h1 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+.welcome
+{
+    background-color: #DBE9EE;
+    margin-top:0px;
+    position: relative; /*once we added the relative it will go over the header, thats why we added z index to the headser, but whenever we use the relative position we will set up the top and left */
+    top: 50px;
+    width:100%;
+    box-sizing: border-box; /*padding and borders are included in the width and height*/
+    padding:50px;
+    text-align: center;
+    /*border:#333 1px solid;*/
+}
+
+p{
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}
+.answer {
+    border: 1px solid #466995;
+    margin: 30px;
+    display: inline-block;   
+    padding: 10px;
+}
+.answer:hover {
+    background: #C0D6DF;
+    color: #FFF;
+  }
+
+h4{
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase
+}
+h3{
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+h2{
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0 auto 20px auto
+}
+
+.question{
+    text-align: center;
+    position: relative;
+    top: 40px;
+  
+}
+
+footer{
+
+    background-color: #DBE9EE;
+    text-align: center;
+    height: 100px;
+}
